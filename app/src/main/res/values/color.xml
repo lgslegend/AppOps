@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <drawable name="appActivityTitle">#4CAF50</drawable>
+  <drawable name="permitActivityTitle">#2196F3</drawable>
+  <drawable name="aboutActivityTitle">#F57C00</drawable>
+  <drawable name="white">#FFFFFF</drawable>
+  <drawable name="whiteBackgroud">#FFFFFF</drawable>
+  <drawable name="blackText">#6D6D6D</drawable>
+  <drawable name="tabOtherText">#94CF96</drawable>
+  <color name="tabChangeBottom">#1473AF</color>
+  <!--<drawable name="disabledPermisson">#FF0000</drawable>-->
+  <drawable name="enabledPermisson">#000000</drawable>
+</resources>

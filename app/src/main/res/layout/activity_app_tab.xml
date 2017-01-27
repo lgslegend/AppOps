@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/appActivityTitle">
+
+        <TextView
+            android:id="@+id/AppListActivityTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/app_activity_title"
+            android:textColor="@drawable/white"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/aboutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/about_selector"
+            android:height="30dp"
+            android:text=""
+            android:width="30dp" />
+
+    </RelativeLayout>
+	<LinearLayout 
+        android:layout_width="fill_parent" 
+        android:layout_height="44dp" 
+        android:background="@drawable/appActivityTitle" > 
+ 
+        <TextView
+            android:id="@+id/tab_normal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/normal_app"
+            android:textColor="@drawable/white"
+            android:textSize="18sp" />
+ 
+        <TextView 
+            android:id="@+id/tab_system" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            android:layout_weight="1.0" 
+            android:textColor="@drawable/tabOtherText"
+            android:gravity="center" 
+            android:text="@string/system_app"
+            android:textSize="18sp"  /> 
+
+    </LinearLayout> 
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/appActivityTitle"
+        android:baselineAligned="false" >
+
+     <LinearLayout
+         android:id="@+id/tab_normal_bottom"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_weight="1.0"
+         android:background="@color/tabChangeBottom"
+         android:gravity="center"
+         android:orientation="horizontal" >
+		 <!--这个背景不知道低版本是否可行-->
+	 </LinearLayout> 
+
+	 <LinearLayout
+	     android:id="@+id/tab_systeml_bottom"
+	     android:layout_width="fill_parent"
+	     android:layout_height="fill_parent"
+	     android:layout_weight="1.0"
+	     android:background="@android:color/transparent"
+	     android:gravity="center"
+	     android:orientation="horizontal" >
+
+	 </LinearLayout> 
+	</LinearLayout> 
+    <android.support.v4.view.ViewPager  
+        android:id="@+id/app_tabs"  
+        android:layout_width="match_parent"  
+        android:layout_height="0dp"
+        android:layout_gravity="center" 
+        android:layout_weight="1.0" 
+        android:background="#000000" 
+        android:flipInterval="30" 
+        android:persistentDrawingCache="animation" />
+
+</LinearLayout>

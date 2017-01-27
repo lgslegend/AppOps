@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whiteBackgroud" 
+    android:clipToPadding="true"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+       android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:background="@drawable/aboutActivityTitle">
+        
+        <Button
+            android:id="@+id/returnButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/return_selector" />
+
+        <TextView
+            android:id="@+id/AboutListActivityTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/returnButton"
+            android:text="@string/about_activity_title"
+            android:textColor="@drawable/white"
+            android:textSize="25sp" />
+        
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/AboutContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="6dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="30dp"
+        android:textColor="@drawable/blackText"
+        android:text="@string/about_content"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:id="@+id/VersionNum"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:lineSpacingExtra="6dp"
+        android:paddingLeft="50dp"
+        android:paddingTop="10dp"
+        android:textColor="@drawable/blackText"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="17sp" />
+    
+    <CheckBox
+        android:id="@+id/chkRevoke"
+        style="@style/custom_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:linksClickable="false"
+        android:longClickable="false"
+        android:paddingLeft="10dp"
+        android:text="@string/revokeTips"
+        android:textColor="@drawable/blackText"
+        android:textSize="17sp" />
+
+</LinearLayout>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+	<string-array name="sfilter">
+
+       <!-- <item>BOOT_COMPLETED</item>
+        <item>VIBRATE</item>
+        <item>POST_NOTIFICATION</item>
+        <item>SYSTEM_ALERT_WINDOW</item>
+        <item>GET_USAGE_STATS</item>
+        <item>TOAST_WINDOW</item>
+        <item>ACTIVATE_VPN</item>
+        <item>WAKE_LOCK</item>
+        <item>WRITE_SETTINGS</item>-->
+             
+    </string-array> 
+    <string-array name="nfilter">
+
+      <!--  <item>VIBRATE</item>
+        <item>POST_NOTIFICATION</item>
+        <item>SYSTEM_ALERT_WINDOW</item>
+        <item>GET_USAGE_STATS</item>
+        <item>TOAST_WINDOW</item>
+        <item>ACTIVATE_VPN</item>-->
+        
+    </string-array> 
+	<string-array name="privacyStr">
+
+        <item>COARSE_LOCATION</item>
+        <item>READ_CONTACTS</item>
+        <item>WRITE_CONTACTS</item>
+        <item>READ_CALL_LOG</item>
+        <item>WRITE_CALL_LOG</item>
+        <item>READ_CALENDAR</item>
+        <item>WRITE_CALENDAR</item>
+        <item>CALL_PHONE</item>
+        <item>READ_SMS</item>
+        <item>WRITE_SMS</item>
+        <item>RECEIVE_SMS</item>
+        <item>RECEIVE_EMERGECY_SMS</item>
+        <item>RECEIVE_MMS</item>
+        <item>RECEIVE_WAP_PUSH</item>
+        <item>SEND_SMS</item>
+        <item>READ_ICC_SMS</item>
+        <item>WRITE_ICC_SMS</item>
+
+        <item>WIFI_CHANGE</item>
+        <item>BLUETOOTH_CHANGE</item>
+        <item>SEND_MMS</item>
+        <item>READ_MMS</item>
+        <item>WRITE_MMS</item>
+        <item>BOOT_COMPLETED</item>
+        <item>DELETE_SMS</item>
+        <item>DELETE_MMS</item>
+        <item>DELETE_CONTACTS</item>
+        <item>DELETE_CALL_LOG</item>
+        <item>DATA_CONNECT_CHANGE</item>
+        <item>OP_READ_PHONE_STATE</item>
+        <item>ADD_VOICEMAIL</item>
+        <item>PROCESS_OUTGOING_CALLS</item>
+        <item>USE_FINGERPRINT</item>
+        <item>BODY_SENSORS</item>
+        <item>READ_CELL_BROADCASTS</item>
+        <item>MOCK_LOCATION</item>
+        <item>GET_ACCOUNTS</item>   
+    </string-array> 
+    
+    <string-array name="opStr">
+
+        
+        
+        <item>COARSE_LOCATION</item>
+        <item>FINE_LOCATION</item>
+        <item>GPS</item>
+        <item>VIBRATE</item>
+        <item>READ_CONTACTS</item>
+        <item>WRITE_CONTACTS</item>
+        <item>READ_CALL_LOG</item>
+        <item>WRITE_CALL_LOG</item>
+        <item>READ_CALENDAR</item>
+        <item>WRITE_CALENDAR</item>
+        <item>WIFI_SCAN</item>
+        <item>POST_NOTIFICATION</item>
+        <item>NEIGHBORING_CELLS</item>
+        <item>CALL_PHONE</item>
+        <item>READ_SMS</item>
+        <item>WRITE_SMS</item>
+        <item>RECEIVE_SMS</item>
+        <item>RECEIVE_EMERGECY_SMS</item>
+        <item>RECEIVE_MMS</item>
+        <item>RECEIVE_WAP_PUSH</item>
+        <item>SEND_SMS</item>
+        <item>READ_ICC_SMS</item>
+        <item>WRITE_ICC_SMS</item>
+        <item>WRITE_SETTINGS</item>
+        <item>SYSTEM_ALERT_WINDOW</item>
+        <item>ACCESS_NOTIFICATIONS</item>
+        <item>CAMERA</item>
+        <item>RECORD_AUDIO</item>
+        <item>PLAY_AUDIO</item>
+        <item>READ_CLIPBOARD</item>
+        <item>WRITE_CLIPBOARD</item>
+        <item>TAKE_MEDIA_BUTTONS</item>
+        <item>TAKE_AUDIO_FOCUS</item>
+        <item>AUDIO_MASTER_VOLUME</item>
+        <item>AUDIO_VOICE_VOLUME</item>
+        <item>AUDIO_RING_VOLUME</item>
+        <item>AUDIO_MEDIA_VOLUME</item>
+        <item>AUDIO_ALARM_VOLUME</item>
+        <item>AUDIO_NOTIFICATION_VOLUME</item>
+        <item>AUDIO_BLUETOOTH_VOLUME</item>
+        <item>WAKE_LOCK</item>
+        <item>MONITOR_LOCATION</item>
+        <item>MONITOR_HIGH_POWER_LOCATION</item>
+        <item>GET_USAGE_STATS</item>
+        <item>MUTE_MICROPHONE</item>
+        <item>TOAST_WINDOW</item>
+        <item>PROJECT_MEDIA</item>
+        <item>ACTIVATE_VPN</item>
+
+
+
+
+        <item>WIFI_CHANGE</item>
+        <item>BLUETOOTH_CHANGE</item>
+        <item>SEND_MMS</item>
+        <item>READ_MMS</item>
+        <item>WRITE_MMS</item>
+        <item>BOOT_COMPLETED</item>
+        <item>NFC_CHANGE</item>
+        <item>DELETE_SMS</item>
+        <item>DELETE_MMS</item>
+        <item>DELETE_CONTACTS</item>
+        <item>DELETE_CALL_LOG</item>
+        <item>DATA_CONNECT_CHANGE</item>
+
+        <item>WRITE_WALLPAPER</item>
+        <item>ASSIST_STRUCTURE</item>
+        <item>ASSIST_SCREENSHOT</item>
+        <item>OP_READ_PHONE_STATE</item>
+        <item>ADD_VOICEMAIL</item>
+        <item>USE_SIP</item>
+        <item>PROCESS_OUTGOING_CALLS</item>
+        <item>USE_FINGERPRINT</item>
+        <item>BODY_SENSORS</item>
+        <item>READ_CELL_BROADCASTS</item>
+        <item>MOCK_LOCATION</item>
+        <item>READ_EXTERNAL_STORAGE</item>
+        <item>WRITE_EXTERNAL_STORAGE</item>
+        <item>TURN_ON_SCREEN</item>
+        <item>GET_ACCOUNTS</item>        
+    </string-array> 
+    <string-array name="opDesc">
+
+        <item>Get Location</item> 
+        <item>Precise location</item>
+        <item>GPS</item>
+        <item>Vibrate</item>
+        <item>Read contacts</item>
+        <item>Modify contacts</item>
+        <item>Read call log</item>
+        <item>Modify call log</item>
+        <item>Read calendar</item>
+        <item>Modify calendar</item>
+        <item>Get WiFi information</item>
+        <item>Post notification</item>
+        <item>Neighboring cells</item>
+        <item>Call phone numbers</item>
+        <item>Read SMS</item>
+        <item>Modify SMS</item>
+        <item>Receive SMS</item>
+        <item>Receive emergency SMS</item>
+        <item>Receive MMS</item>
+        <item>Receive WAP push</item>
+        <item>Send SMS</item>
+        <item>Read ICC SMS</item>
+        <item>Modify ICC SMS</item>
+        <item>Change system settings</item>
+        <item>Draw on top</item>
+        <item>Access notifications</item>
+        <item>Use camera</item>
+        <item>Record audio</item>
+        <item>Play audio</item>
+        <item>Read clipboard</item>
+        <item>Modify clipboard</item>
+        <item>Take media buttons</item>
+        <item>Take audio focus</item>
+        <item>Change master volume</item>
+        <item>Change voice volume</item>
+        <item>Change ring volume</item>
+        <item>Change media volume</item>
+        <item>Change alarm volume</item>
+        <item>Change notification volume</item>
+        <item>Change bluetooth volume</item>
+        <item>Keep awake</item>
+        <item>Monitor location</item>
+        <item>Moniter high power location</item>
+        <item>Retrieve usage statistics</item>
+        <item>Mute microphone</item>
+        <item>Display toast</item>
+        <item>Project media</item>
+        <item>Activate VPN</item>
+
+
+
+        <item>Turn on/off WiFi</item>
+        <item>Turn on/off Bluetooth</item>
+        <item>Send MMS</item>
+        <item>Read MMS</item>
+        <item>Modify MMS</item>
+        <item>Run at startup</item>
+        <item>Control NFC</item>
+        <item>Delete SMS</item>
+        <item>Delete MMS</item>
+        <item>Delete contacts</item>
+        <item>Delete call log</item>
+        <item>Turn on/off data connect</item>
+        
+        <item>Set Wallpaper</item>
+        <item>Received the assist structure</item>
+        <item>Receive screenshots from assist</item>
+        <item>Read the phone state</item>
+        <item>Add voicemail</item>
+        <item>SIP calling</item>
+        <item>Intercept outgoing calls</item>
+        <item>USE_FINGERPRINT</item>
+        <item>Access to body sensors</item>
+        <item>Read cell broadcast messages</item>
+        <item>Inject mock location</item>
+        <item>Read external storage</item>
+        <item>Write external storage</item>
+        <item>Turn on the screen</item>
+        <item>Get device accounts</item>     
+    </string-array> 
+</resources> 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whiteBackgroud"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp" >
+
+   <TextView
+            android:id="@+id/permiName"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+			android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textColor="@drawable/enabledPermisson" />
+
+    <ToggleButton
+        android:id="@+id/permiSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textOff=""
+        android:textOn=""
+        android:background="@drawable/toggle_selector"
+        android:checked="true" />
+
+</LinearLayout>

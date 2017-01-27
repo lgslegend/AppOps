@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">AppOpsUI</string>
+	<string name="app_activity_title">应用列表</string>
+	<string name="about_activity_title">设置</string>
+	<string name="about_content">这是一个基于AppOps的权限管理应用。</string>
+	
+	<string name="normal_app">普通应用</string>
+	
+	<string name="system_app">系统应用</string>
+	
+	<string name="revokeTips">自动禁止新安装应用的隐私权限</string>
+</resources>

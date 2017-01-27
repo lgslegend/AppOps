@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppOps UI</string>
+	<string name="app_activity_title">Apps</string>
+	<string name="about_activity_title">Setting</string>
+	<string name="about_content">This is a simple app to control permissions based on AppOps API.</string>
+	<string name="normal_app">Normal</string>
+	<string name="system_app">System</string>
+	<string name="revokeTips">Auto revoke private permissions when new apps installed</string>
+</resources>

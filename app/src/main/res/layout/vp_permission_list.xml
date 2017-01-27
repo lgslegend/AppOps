@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:background="@drawable/permitActivityTitle">
+
+        <Button
+            android:id="@+id/returnButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/return_selector" />
+        
+        <ImageView
+        	android:id="@+id/permAppIcon"
+        	android:layout_width="50dp"
+        	android:layout_height="50dp"
+        	android:layout_marginLeft="20dp"
+        	android:layout_centerVertical="true"
+        	android:layout_toRightOf="@id/returnButton"
+        	android:clickable="false"
+        	android:longClickable="false" />
+
+        <TextView
+            android:id="@+id/PermitListActivityTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="90dp"
+            android:layout_toRightOf="@id/returnButton"
+            android:lines="1"
+            android:textColor="@drawable/white"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+    
+    <ListView
+        android:id="@+id/permitList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/whiteBackgroud"
+        android:dividerHeight="2px"
+        android:divider="#D1D1D1" >
+
+    </ListView>
+
+</LinearLayout>
